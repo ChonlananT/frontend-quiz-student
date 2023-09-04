@@ -1,11 +1,12 @@
-// import { API_URL } from "../utils/api";
-// import { type Donation } from "@/utils/types";
-import { Paper, Text, Stack, Group, Title, Card } from "@mantine/core";
+import { API_URL } from "../utils/api";
+ import { type Donation } from "@/utils/types";
+import { Paper, Text, Stack, Group, Title, Card, Box } from "@mantine/core";
 import dayjs from "dayjs";
 
 export default function Donation() {
   return (
     <Card withBorder shadow="xs" bg="gray.3">
+      
       <Group mb={20}>
         <Title order={1} color="gray">
           Total
